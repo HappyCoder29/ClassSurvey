@@ -13,9 +13,17 @@
 		75143BD62734C5ED00D7C344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75143BD42734C5ED00D7C344 /* Main.storyboard */; };
 		75143BD82734C5EE00D7C344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75143BD72734C5EE00D7C344 /* Assets.xcassets */; };
 		75143BDB2734C5EE00D7C344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75143BD92734C5EE00D7C344 /* LaunchScreen.storyboard */; };
+		75143BE32734C79A00D7C344 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75143BE22734C79500D7C344 /* GoogleService-Info.plist */; };
+		75726B062734C9C90075E02B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75726B052734C9C90075E02B /* Keychain.swift */; };
+		75726B082734CA9C0075E02B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75726B072734CA9C0075E02B /* DashboardViewController.swift */; };
+		75726B0A2734CBBF0075E02B /* ClassInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75726B092734CBBF0075E02B /* ClassInfo.swift */; };
+		75726B0C2734CDE50075E02B /* VoteForClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75726B0B2734CDE50075E02B /* VoteForClassViewController.swift */; };
+		EC255B6C571B40DC8761DB6B /* Pods_ClassSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1891289910B64543B2C9F17B /* Pods_ClassSurvey.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1891289910B64543B2C9F17B /* Pods_ClassSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4423FD291A1F94D93513B185 /* Pods-ClassSurvey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassSurvey.release.xcconfig"; path = "Target Support Files/Pods-ClassSurvey/Pods-ClassSurvey.release.xcconfig"; sourceTree = "<group>"; };
 		75143BCB2734C5ED00D7C344 /* ClassSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75143BCE2734C5ED00D7C344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75143BD02734C5ED00D7C344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		75143BD72734C5EE00D7C344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75143BDA2734C5EE00D7C344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75143BDC2734C5EE00D7C344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75143BE22734C79500D7C344 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75726B052734C9C90075E02B /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		75726B072734CA9C0075E02B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		75726B092734CBBF0075E02B /* ClassInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfo.swift; sourceTree = "<group>"; };
+		75726B0B2734CDE50075E02B /* VoteForClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteForClassViewController.swift; sourceTree = "<group>"; };
+		7AAFB8D7C975CB596D83017B /* Pods-ClassSurvey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassSurvey.debug.xcconfig"; path = "Target Support Files/Pods-ClassSurvey/Pods-ClassSurvey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC255B6C571B40DC8761DB6B /* Pods_ClassSurvey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CD5C668D55FC41202542EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AAFB8D7C975CB596D83017B /* Pods-ClassSurvey.debug.xcconfig */,
+				4423FD291A1F94D93513B185 /* Pods-ClassSurvey.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		75143BC22734C5EC00D7C344 = {
 			isa = PBXGroup;
 			children = (
 				75143BCD2734C5ED00D7C344 /* ClassSurvey */,
 				75143BCC2734C5ED00D7C344 /* Products */,
+				4CD5C668D55FC41202542EC3 /* Pods */,
+				82130CD694027B4FBABA21AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +88,22 @@
 				75143BD42734C5ED00D7C344 /* Main.storyboard */,
 				75143BD72734C5EE00D7C344 /* Assets.xcassets */,
 				75143BD92734C5EE00D7C344 /* LaunchScreen.storyboard */,
+				75143BE22734C79500D7C344 /* GoogleService-Info.plist */,
 				75143BDC2734C5EE00D7C344 /* Info.plist */,
+				75726B052734C9C90075E02B /* Keychain.swift */,
+				75726B072734CA9C0075E02B /* DashboardViewController.swift */,
+				75726B092734CBBF0075E02B /* ClassInfo.swift */,
+				75726B0B2734CDE50075E02B /* VoteForClassViewController.swift */,
 			);
 			path = ClassSurvey;
+			sourceTree = "<group>";
+		};
+		82130CD694027B4FBABA21AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1891289910B64543B2C9F17B /* Pods_ClassSurvey.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75143BDF2734C5EE00D7C344 /* Build configuration list for PBXNativeTarget "ClassSurvey" */;
 			buildPhases = (
+				BDDC55017B6090D1B323A483 /* [CP] Check Pods Manifest.lock */,
 				75143BC72734C5ED00D7C344 /* Sources */,
 				75143BC82734C5ED00D7C344 /* Frameworks */,
 				75143BC92734C5ED00D7C344 /* Resources */,
+				65CEBC7D4B50336DB2FFA323 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75143BDB2734C5EE00D7C344 /* LaunchScreen.storyboard in Resources */,
+				75143BE32734C79A00D7C344 /* GoogleService-Info.plist in Resources */,
 				75143BD82734C5EE00D7C344 /* Assets.xcassets in Resources */,
 				75143BD62734C5ED00D7C344 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65CEBC7D4B50336DB2FFA323 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassSurvey/Pods-ClassSurvey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassSurvey/Pods-ClassSurvey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClassSurvey/Pods-ClassSurvey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDC55017B6090D1B323A483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClassSurvey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75143BC72734C5ED00D7C344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				75143BD32734C5ED00D7C344 /* ViewController.swift in Sources */,
+				75726B062734C9C90075E02B /* Keychain.swift in Sources */,
+				75726B0A2734CBBF0075E02B /* ClassInfo.swift in Sources */,
+				75726B082734CA9C0075E02B /* DashboardViewController.swift in Sources */,
 				75143BCF2734C5ED00D7C344 /* AppDelegate.swift in Sources */,
 				75143BD12734C5ED00D7C344 /* SceneDelegate.swift in Sources */,
+				75726B0C2734CDE50075E02B /* VoteForClassViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +372,7 @@
 		};
 		75143BE02734C5EE00D7C344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAFB8D7C975CB596D83017B /* Pods-ClassSurvey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		75143BE12734C5EE00D7C344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4423FD291A1F94D93513B185 /* Pods-ClassSurvey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
